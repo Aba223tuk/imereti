@@ -209,19 +209,22 @@
       tags: ['Vegetarian', 'Eat it hot']
     },
     'megruli': {
-      en: 'Megruli Khachapuri', ka: 'მეგრული ხაჭაპური',
+      en: 'Megruli Khachapuri', ka: 'მეგრული ხაჭაპური', img: 'megruli.jpg',
+      alt: 'Megruli khachapuri — round Georgian cheese bread with melted cheese over the top',
       note: 'For cheese people',
       desc: 'Built like the imeruli — then more cheese melted over the top, so it comes to the table cheese inside and out. Western Georgia’s answer to the question "could there be more?"',
       tags: ['Vegetarian']
     },
     'shampurze': {
-      en: 'Khachapuri Shampurze',
+      en: 'Khachapuri Shampurze', img: 'shampurze.jpg',
+      alt: 'Khachapuri shampurze — bread baked wrapped around a skewer',
       note: 'From the grill',
       desc: 'Khachapuri baked wrapped around the skewer, over the same charcoal as the mtsvadi — crisp outside, molten inside, straight off the mangal.',
       tags: ['From the charcoal']
     },
     'achma': {
-      en: 'Achma', ka: 'აჩმა',
+      en: 'Achma', ka: 'აჩმა', img: 'achma.jpg',
+      alt: 'Achma — layered Georgian cheese pastry slice on a white plate',
       note: 'Georgian lasagne',
       desc: 'Layered sheets of boiled dough with cheese and butter between every layer — no sauce, just richness. One guest’s review reads, in full: "yum yum yum."',
       tags: ['Vegetarian']
@@ -233,7 +236,8 @@
       tags: ['Vegetarian']
     },
     'guruli': {
-      en: 'Guruli', ka: 'გურული',
+      en: 'Guruli', ka: 'გურული', img: 'guruli.jpg',
+      alt: 'Guruli — folded crescent of Georgian cheese bread, baked golden',
       note: 'The Christmas one',
       desc: 'A folded crescent of dough with cheese and chopped hard-boiled egg — the khachapuri Guria bakes for Christmas.',
       tags: ['Vegetarian']
@@ -246,7 +250,8 @@
       tags: ['Vegetarian']
     },
     'fkhlovana': {
-      en: 'Fkhlovana',
+      en: 'Fkhlovana', img: 'fkhlovana.jpg',
+      alt: 'Fkhlovana — round Georgian bread filled with greens and herbs, cut in wedges',
       note: 'Greens & herbs',
       desc: 'Baked with a filling of greens, herbs and cheese — the green counterpart to the cheese breads.',
       tags: ['Vegetarian']

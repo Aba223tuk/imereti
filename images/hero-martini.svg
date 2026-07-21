@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="46%" r="60%">
+      <stop offset="0%" stop-color="#D4A045" stop-opacity=".16"/>
+      <stop offset="45%" stop-color="#D4A045" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#D4A045" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wineGlowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#722F37" stop-opacity=".38"/>
+      <stop offset="100%" stop-color="#722F37" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wineGlowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#722F37" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#722F37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldStroke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E6B964"/>
+      <stop offset="55%" stop-color="#D4A045"/>
+      <stop offset="100%" stop-color="#B8862E"/>
+    </linearGradient>
+    <pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#D4A045" opacity=".07"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="48%" r="72%">
+      <stop offset="0%" stop-color="#1A0F08" stop-opacity="0"/>
+      <stop offset="72%" stop-color="#1A0F08" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#100904" stop-opacity=".85"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground -->
+  <rect width="1600" height="1000" fill="#1A0F08"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <ellipse cx="230" cy="920" rx="640" ry="420" fill="url(#wineGlowA)" opacity=".55"/>
+  <ellipse cx="1420" cy="110" rx="560" ry="380" fill="url(#wineGlowB)" opacity=".55"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+
+  <!-- ornament rings, echoing the qvevri / borjgali circles -->
+  <g fill="none" stroke="#D4A045" opacity=".22">
+    <circle cx="800" cy="470" r="352" stroke-width="1.1"/>
+    <circle cx="800" cy="470" r="326" stroke-width="1.4" stroke-dasharray="1 11"/>
+    <circle cx="800" cy="470" r="380" stroke-width=".7" opacity=".5"/>
+  </g>
+  <g fill="#D4A045" opacity=".32">
+    <path d="M800 84 l7 11 -7 11 -7 -11 Z"/>
+    <path d="M800 845 l7 11 -7 11 -7 -11 Z"/>
+    <path d="M411 459 l11 7 -11 7 -11 -7 Z" transform="translate(26 4)"/>
+    <path d="M1178 459 l11 7 -11 7 -11 -7 Z" transform="translate(-15 4)"/>
+  </g>
+
+  <!-- the crowned martini -->
+  <g stroke="url(#goldStroke)" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".32">
+    <!-- crown -->
+    <g stroke-width="4">
+      <path d="M700 296 L713 233 L752 268 L800 218 L848 268 L887 233 L900 296"/>
+      <path d="M697 306 h206 a6 6 0 0 1 6 6 v6 a6 6 0 0 1 -6 6 h-206 a6 6 0 0 1 -6 -6 v-6 a6 6 0 0 1 6 -6 Z"/>
+      <circle cx="713" cy="224" r="8"/>
+      <circle cx="800" cy="207" r="9.5"/>
+      <circle cx="887" cy="224" r="8"/>
+    </g>
+    <!-- glass -->
+    <g stroke-width="4.5">
+      <path d="M610 344 H990"/>
+      <path d="M612 346 L800 566 L988 346"/>
+      <path d="M800 566 V706"/>
+      <path d="M706 712 a94 12 0 0 0 188 0 Z"/>
+    </g>
+    <!-- the pour line -->
+    <path d="M672 416 H928" stroke-width="3" opacity=".7" stroke-dasharray="4 9"/>
+  </g>
+
+  <!-- faint sparks -->
+  <g fill="#E6B964">
+    <circle cx="588" cy="238" r="2.4" opacity=".34"/>
+    <circle cx="1034" cy="300" r="2" opacity=".28"/>
+    <circle cx="522" cy="560" r="1.8" opacity=".26"/>
+    <circle cx="1092" cy="590" r="2.4" opacity=".3"/>
+    <circle cx="946" cy="168" r="1.6" opacity=".26"/>
+    <circle cx="660" cy="150" r="1.6" opacity=".22"/>
+  </g>
+
+  <rect width="1600" height="1000" fill="url(#vignette)"/>
+</svg>

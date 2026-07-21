@@ -22,13 +22,12 @@ qvevri-fermented white is literally called *amber wine*. So amber, aged oak and 
 read as authentically Georgian rather than as an imported American whiskey look. The
 story section says so out loud.
 
-It is tuned dark and muted rather than bright: near-black browns for the ground
-(`#0F0A06` → `#33261A`), a **light brown** rather than a saturated amber for the accent
-(`#C0965F`), and a genuine warm **creme** for the paper (`#EFE5D2` / `#E5D8C0`) instead
-of near-white. Cards sit a step lighter than their section (`#F7F1E4`) so they separate
-without a hard white edge. Accent colours were checked for contrast on the creme grounds
-— the small uppercase copper (`#7E5E3D`) clears 5:1 on creme, so the eyebrow labels stay
-legible.
+It is tuned dark and rich: espresso browns for the ground (`#1A0F08` → `#3A2618`), a
+saturated **cafe gold** for the accent (`#D4A045`, light `#E6B964`), Saperavi wine
+(`#722F37`) as the secondary, and a warm **creme** for the paper (`#F5E6C8` / `#EBD9B4`)
+instead of near-white. Cards sit a step lighter than their section (`#FAF0DA`) so they
+separate without a hard white edge. On the creme grounds the small uppercase accents use
+a darkened copper-gold (`#886222`) so the eyebrow labels stay legible.
 
 **Typography**
 - Display — **Fraunces**. Warm, old-style, slightly oily. Carries the aged-oak feeling.
@@ -43,10 +42,11 @@ the work the letterforms can't. If a genuinely characterful Georgian display fac
 ever wanted, the BPG collection is the Georgian-design standard, but its licences are
 inconsistent and each font must be checked individually before shipping.
 
-**Ornament** — the mark is a **borjgali**, the pre-Christian Georgian sun symbol: seven
-wings turning, meaning the flow of time and eternity. It's drawn as a fine outline in the
-hero rather than filled, because a solid fill over a photograph collapses into a muddy
-blob and fights the wordmark.
+**Ornament** — the mark is a **crowned martini glass**: solid-fill gold in the header,
+footer and favicon, so it stays crisp at 32px. The hero background is a drawn SVG scene
+(`images/hero-martini.svg`) — the same crowned glass in fine gold line work over the
+espresso ground, ringed with dotted circles that echo the borjgali/qvevri motif. The
+borjgali itself survives as the dish-modal ornament for items without a photo.
 
 ---
 
@@ -147,8 +147,11 @@ gets mistaken for acharuli khachapuri constantly; those candidates were rejected
 were mislabeled kharcho and badrijani shots). **Swap in the client's real photos by
 overwriting the file — keep the same filename** and nothing else needs touching.
 
-No attribution needed (Pexels): khinkali, acharuli-khachapuri, imeruli-khachapuri,
-mtsvadi, supra, pkhali, churchkhela, borscht, salad, cake, wine.
+Client-provided (no attribution): khinkali, acharuli-khachapuri, imeruli-khachapuri,
+megruli, guruli, shampurze, fkhlovana, achma.
+
+No attribution needed (Pexels): mtsvadi, supra, pkhali, churchkhela, borscht,
+salad, cake, wine.
 
 **Attribution required (Wikimedia Commons — credit line is in the footer; keep it in
 sync if any of these are replaced, and remove it entirely once all seven are):**

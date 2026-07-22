@@ -18,11 +18,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Karla:wght@300;400;500;600;700&family=Noto+Serif+Georgian:wght@100..900&display=swap" rel="stylesheet">
 
-<link rel="preload" as="image" href="images/hero-martini.svg" fetchpriority="high">
+<link rel="preload" as="image" href="images/hero-martini.svg?v=3" fetchpriority="high">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect width='200' height='200' fill='%231A0F08'/><g fill='%23D4A045'><path d='M62 62 L68 32 L85 47 L100 23 L115 47 L132 32 L138 62 Z'/><rect x='60' y='64' width='80' height='8' rx='3'/><circle cx='68' cy='27' r='4.5'/><circle cx='100' cy='18' r='5'/><circle cx='132' cy='27' r='4.5'/><path d='M40 84 H160 L103 142 H97 Z'/><rect x='96.5' y='140' width='7' height='30'/><rect x='72' y='170' width='56' height='8' rx='4'/></g></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect width='200' height='200' fill='%231A0F08'/><g fill='none' stroke='%23D4A045' stroke-width='14' stroke-linecap='round' stroke-linejoin='round' transform='translate(7 5) scale(.94) rotate(13 100 120)'><g transform='rotate(-16 88 56)'><path d='M54 52 L62 26 L80 42 L92 16 L104 42 L118 24 L124 50'/><path d='M52 58 Q88 64 124 56'/><g fill='%23D4A045' stroke='none'><circle cx='61' cy='19' r='7'/><circle cx='92' cy='9' r='7.5'/><circle cx='119' cy='17' r='7'/></g></g><path d='M36 58 L164 58'/><path d='M40 61 L100 152 L160 61'/><ellipse cx='110' cy='86' rx='14' ry='9.5' fill='%23D4A045' stroke='none' transform='rotate(-40 110 86)'/><path d='M100 152 C100 166 104 178 106 186'/><path d='M76 194 C92 203 118 203 134 191'/></g></svg>">
 
-<link rel="stylesheet" href="styles.css?v=2">
+<link rel="stylesheet" href="styles.css?v=5">
 
 <script type="application/ld+json">
 {
@@ -71,15 +71,23 @@
   <div class="wrap hdr-in">
     <a class="brand" href="#top" aria-label="Imereti, home">
       <svg class="brand-mark" viewBox="0 0 200 200" aria-hidden="true">
-        <g fill="currentColor">
-          <path d="M62 62 L68 32 L85 47 L100 23 L115 47 L132 32 L138 62 Z"/>
-          <rect x="60" y="64" width="80" height="8" rx="3"/>
-          <circle cx="68" cy="27" r="4.5"/>
-          <circle cx="100" cy="18" r="5"/>
-          <circle cx="132" cy="27" r="4.5"/>
-          <path d="M40 84 H160 L103 142 H97 Z"/>
-          <rect x="96.5" y="140" width="7" height="30"/>
-          <rect x="72" y="170" width="56" height="8" rx="4"/>
+        <g fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" transform="translate(7 3) scale(.95) rotate(13 100 120)">
+          <g transform="rotate(-16 88 56)">
+            <path d="M54 52 L62 26 L80 42 L92 16 L104 42 L118 24 L124 50"/>
+            <path d="M52 58 Q88 64 124 56"/>
+            <g fill="currentColor" stroke="none">
+              <circle cx="61" cy="19" r="6"/>
+              <circle cx="92" cy="9" r="6.5"/>
+              <circle cx="119" cy="17" r="6"/>
+            </g>
+          </g>
+          <path d="M36 58 L164 58"/>
+          <path d="M46 72 L154 72"/>
+          <path d="M40 61 L100 152 L160 61"/>
+          <path d="M158 46 L82 110"/>
+          <ellipse cx="110" cy="86" rx="13" ry="8.5" fill="currentColor" stroke="none" transform="rotate(-40 110 86)"/>
+          <path d="M100 152 C100 166 104 178 106 186"/>
+          <path d="M76 194 C92 203 118 203 134 191"/>
         </g>
       </svg>
       <span class="brand-txt">
@@ -122,7 +130,7 @@
 <!-- ══════════════ HERO ══════════════ -->
 <section class="hero" id="top">
   <div class="hero-media" aria-hidden="true">
-    <img src="images/hero-martini.svg" alt="" width="1600" height="1000" fetchpriority="high" decoding="async">
+    <img src="images/hero-martini.svg?v=3" alt="" width="1600" height="1000" fetchpriority="high" decoding="async">
   </div>
   <div class="hero-veil" aria-hidden="true"></div>
 
@@ -365,6 +373,7 @@
       <p class="sec-lede rv" style="--d:.1s">
         Cooked to order &mdash; the breads and the grill take a little time, and they are worth it.
       </p>
+      <p class="tap-hint rv" style="--d:.14s"><i aria-hidden="true">+</i>Tap any dish for the story behind it</p>
     </div>
 
     <div class="tabs rv" style="--d:.14s" role="tablist" aria-label="Menu sections">
@@ -577,15 +586,23 @@
   <div class="wrap ftr-in">
     <div class="f-brand">
       <svg class="brand-mark" viewBox="0 0 200 200" aria-hidden="true">
-        <g fill="currentColor">
-          <path d="M62 62 L68 32 L85 47 L100 23 L115 47 L132 32 L138 62 Z"/>
-          <rect x="60" y="64" width="80" height="8" rx="3"/>
-          <circle cx="68" cy="27" r="4.5"/>
-          <circle cx="100" cy="18" r="5"/>
-          <circle cx="132" cy="27" r="4.5"/>
-          <path d="M40 84 H160 L103 142 H97 Z"/>
-          <rect x="96.5" y="140" width="7" height="30"/>
-          <rect x="72" y="170" width="56" height="8" rx="4"/>
+        <g fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" transform="translate(7 3) scale(.95) rotate(13 100 120)">
+          <g transform="rotate(-16 88 56)">
+            <path d="M54 52 L62 26 L80 42 L92 16 L104 42 L118 24 L124 50"/>
+            <path d="M52 58 Q88 64 124 56"/>
+            <g fill="currentColor" stroke="none">
+              <circle cx="61" cy="19" r="6"/>
+              <circle cx="92" cy="9" r="6.5"/>
+              <circle cx="119" cy="17" r="6"/>
+            </g>
+          </g>
+          <path d="M36 58 L164 58"/>
+          <path d="M46 72 L154 72"/>
+          <path d="M40 61 L100 152 L160 61"/>
+          <path d="M158 46 L82 110"/>
+          <ellipse cx="110" cy="86" rx="13" ry="8.5" fill="currentColor" stroke="none" transform="rotate(-40 110 86)"/>
+          <path d="M100 152 C100 166 104 178 106 186"/>
+          <path d="M76 194 C92 203 118 203 134 191"/>
         </g>
       </svg>
       <p class="f-name">Imereti</p>

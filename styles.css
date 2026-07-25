@@ -686,6 +686,10 @@ body.dm-open{overflow:hidden}
 .dmodal.open .dm-body > *:nth-child(7){transition-delay:.38s}
 .dmodal.open .dm-body > *{opacity:1;transform:none}
 
+.sec-ka{
+  font-family:var(--f-ka);font-size:clamp(.95rem,.85rem + .4vw,1.15rem);
+  color:var(--copper);margin:.5rem 0 0;letter-spacing:.06em;
+}
 .dm-ka{
   font-family:var(--f-ka);font-size:1rem;font-weight:500;
   letter-spacing:.2em;color:var(--copper);margin:0 0 .3rem;

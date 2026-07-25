@@ -200,79 +200,79 @@
       en: 'Imeruli Khachapuri', ka: 'იმერული ხაჭაპური', img: 'imeruli-khachapuri.jpg',
       alt: 'Imeruli khachapuri — round enclosed Georgian cheese bread, cut open',
       note: 'The one we are named for',
-      desc: 'Imeretian cheese sealed inside soft dough, pressed flat and baked into a round — traditionally on a ketsi, a clay pan set on embers.',
-      descKa: 'იმერული ყველი რბილ ცომში ჩაკრული, გაბრტყელებული და მრგვალად გამომცხვარი — ტრადიციულად კეცზე, ნაკვერჩხლებზე შემდგარ თიხის ტაფაზე.',
+      desc: 'A round cheese-filled bread from the Imereti region, made with imeruli cheese sealed inside leavened dough and baked flat.',
+      descKa: 'მრგვალი, ყველით გატენილი პური იმერეთის რეგიონიდან — აფუებულ ცომში ჩაკრული იმერული ყველი, გაბრტყელებული და გამომცხვარი.',
       tags: ['Vegetarian', 'Baked to order']
     },
     'acharuli': {
       en: 'Acharuli Khachapuri', ka: 'აჭარული ხაჭაპური', img: 'acharuli-khachapuri.jpg',
       alt: 'Acharuli khachapuri — boat-shaped bread with molten cheese, egg yolk and butter',
       note: 'The famous one',
-      desc: 'An open boat of bread filled with molten cheese, finished with a raw yolk and a knob of butter.',
-      descKa: 'პურის ღია ნავი გამდნარი ყველით, უმი გულითა და კარაქის ნაჭრით მოთავებული.',
+      desc: 'An open, boat-shaped bread from Adjara, filled with melted cheese and topped with a raw egg and butter before serving.',
+      descKa: 'ღია, ნავის ფორმის პური აჭარიდან, გამდნარი ყველით სავსე; მიტანის წინ ემატება უმი კვერცხი და კარაქი.',
       tags: ['Vegetarian', 'Eat it hot']
     },
     'megruli': {
       en: 'Megruli Khachapuri', ka: 'მეგრული ხაჭაპური', img: 'megruli.jpg',
       alt: 'Megruli khachapuri — round Georgian cheese bread with melted cheese over the top',
       note: 'For cheese people',
-      desc: 'Built like the imeruli, with more cheese melted over the top — cheese inside and out.',
-      descKa: 'იმერულივით აწყობილი, ზემოდან კიდევ ყველი ედნობა — ყველი შიგნით და გარეთ.',
+      desc: 'A round cheese bread from Samegrelo, filled with cheese and topped with an additional layer of melted cheese.',
+      descKa: 'მრგვალი ყველიანი პური სამეგრელოდან, ყველის გულითა და ზემოდან დამატებული გამდნარი ყველის ფენით.',
       tags: ['Vegetarian']
     },
     'shampurze': {
       en: 'Khachapuri Shampurze', img: 'shampurze.jpg',
       alt: 'Khachapuri shampurze — bread baked wrapped around a skewer',
       note: 'From the grill',
-      desc: 'Khachapuri baked wrapped around the skewer, over the same charcoal as the mtsvadi.',
-      descKa: 'შამფურზე შემოხვეული და გამომცხვარი ხაჭაპური, იმავე ნაკვერჩხალზე, სადაც მწვადი.',
+      desc: 'Khachapuri baked on a skewer over charcoal.',
+      descKa: 'შამფურზე, ნაკვერჩხალზე გამომცხვარი ხაჭაპური.',
       tags: ['From the charcoal']
     },
     'achma': {
       en: 'Achma', ka: 'აჩმა', img: 'achma.jpg',
       alt: 'Achma — layered Georgian cheese pastry slice on a white plate',
       note: 'Georgian lasagne',
-      desc: 'Layered sheets of boiled dough with cheese and butter between every layer.',
-      descKa: 'მოხარშული ცომის ფენები, ყოველ ფენას შორის ყველი და კარაქი.',
+      desc: 'A layered pastry of boiled dough, cheese and butter, traditional to Adjara and Abkhazia.',
+      descKa: 'მოხარშული ცომის, ყველისა და კარაქის ფენოვანი ნამცხვარი, ტრადიციული აჭარასა და აფხაზეთში.',
       tags: ['Vegetarian']
     },
     'penovani': {
       en: 'Penovani Khachapuri', ka: 'პენოვანი',
       note: 'The flaky one',
-      desc: 'Khachapuri in puff pastry — square, flaky and buttery.',
-      descKa: 'ხაჭაპური ფენოვან ცომში — კვადრატული, ფხვიერი და კარაქიანი.',
+      desc: 'A square khachapuri made with layered puff pastry filled with cheese.',
+      descKa: 'კვადრატული ხაჭაპური ფენოვანი ცომით, ყველის გულით.',
       tags: ['Vegetarian']
     },
     'guruli': {
       en: 'Guruli', ka: 'გურული', img: 'guruli.jpg',
       alt: 'Guruli — folded crescent of Georgian cheese bread, baked golden',
       note: 'The Christmas one',
-      desc: 'A folded crescent of dough with cheese and chopped hard-boiled egg — the khachapuri Guria bakes for Christmas.',
-      descKa: 'ცომის გადაკეცილი ნახევარმთვარე ყველითა და დაჭრილი მოხარშული კვერცხით — ხაჭაპური, რომელსაც გურია შობისთვის აცხობს.',
+      desc: 'A crescent-shaped bread from Guria filled with cheese and hard-boiled egg, traditionally baked for Christmas.',
+      descKa: 'ნახევარმთვარის ფორმის პური გურიიდან, ყველისა და მოხარშული კვერცხის გულით; ტრადიციულად შობისთვის ცხვება.',
       tags: ['Vegetarian']
     },
     'lobiani': {
       en: 'Lobiani', img: 'lobiani.jpg',
       alt: 'Lobiani — round Georgian bread cut in wedges, bean filling at the cut edges',
       note: 'Bean bread',
-      desc: 'Flat bread baked around a filling of spiced, mashed beans.',
-      descKa: 'ბრტყელი პური, სანელებლებიანი დანაყილი ლობიოს გულით გამომცხვარი.',
+      desc: 'A Georgian bread filled with mashed, seasoned kidney beans, originating in the Racha region.',
+      descKa: 'ქართული პური დანაყილი, შეზავებული ლობიოს გულით, წარმოშობით რაჭის რეგიონიდან.',
       tags: ['Vegetarian']
     },
     'fkhlovana': {
       en: 'Fkhlovana', img: 'fkhlovana.jpg',
       alt: 'Fkhlovana — round Georgian bread filled with greens and herbs, cut in wedges',
       note: 'Greens & herbs',
-      desc: 'Baked with a filling of greens, herbs and cheese.',
-      descKa: 'მწვანილის, ბალახეულისა და ყველის გულით გამომცხვარი.',
+      desc: 'A khachapuri-style bread baked with a filling of greens, herbs and cheese.',
+      descKa: 'ხაჭაპურის ტიპის პური მწვანილის, ბალახეულისა და ყველის გულით.',
       tags: ['Vegetarian']
     },
     'mchadi': {
       en: 'Cornbread “Mchadi”', ka: 'მჭადი', img: 'mchadi.jpg',
       alt: 'Mchadi — small round golden Georgian corn cakes in a clay dish',
       note: 'Three pieces',
-      desc: 'Small rounds of cornbread with crisp edges, made the old way.',
-      descKa: 'პატარა, კიდეებხრაშუნა სიმინდის კვერები, ძველებურად გამომცხვარი.',
+      desc: 'A traditional Georgian cornbread, typically served with cheese or lobio.',
+      descKa: 'ტრადიციული ქართული სიმინდის პური; ჩვეულებრივ ყველთან ან ლობიოსთან ერთად მიირთმევა.',
       tags: ['Vegetarian']
     },
 
@@ -281,69 +281,69 @@
       en: 'Khinkali', ka: 'ხინკალი', img: 'khinkali.jpg',
       alt: 'Khinkali — hand-pleated Georgian soup dumplings with twisted knots',
       note: 'Six pieces, boiled to order',
-      desc: 'Spiced meat and hot broth sealed inside a pleated purse of dough, boiled to order.',
-      descKa: 'ცომის დანაოჭებულ ქისაში ჩაკეტილი სანელებლიანი ხორცი და ცხელი წვენი, შეკვეთისას მოხარშული.',
+      desc: 'Georgian dumplings of twisted dough filled with spiced meat and broth, originating in the mountain regions of Pshavi, Mtiuleti and Khevsureti.',
+      descKa: 'ქართული ცომეული დახვეული ცომით, სანელებლიანი ხორცისა და წვენის გულით; წარმოშობით ფშავის, მთიულეთისა და ხევსურეთის მთიანეთიდან.',
       tags: ['The signature']
     },
     'mtsvadi': {
       en: 'Mtsvadi', ka: 'მწვადი', img: 'mtsvadi.jpg',
       alt: 'Mtsvadi — meat grilling on flat skewers over charcoal',
       note: 'Pork or chicken',
-      desc: 'Meat threaded onto flat skewers and turned over live charcoal.',
-      descKa: 'ბრტყელ შამფურზე ასხმული ხორცი, ცოცხალ ნაკვერჩხალზე შემწვარი.',
+      desc: 'Georgian shashlik — cubes of meat threaded onto a skewer and grilled over charcoal.',
+      descKa: 'ქართული მწვადი — შამფურზე ასხმული ხორცის ნაჭრები, ნაკვერჩხალზე შემწვარი.',
       tags: ['From the charcoal']
     },
     'mtsvadi-pork': {
       en: 'Pork Mtsvadi', ka: 'მწვადი', img: 'mtsvadi.jpg',
       alt: 'Mtsvadi — meat grilling on flat skewers over charcoal',
       note: 'From the charcoal',
-      desc: 'Pork on the flat skewer, turned over live coals.',
-      descKa: 'ღორის ხორცი ბრტყელ შამფურზე, ცოცხალ ნაკვერჩხალზე შემწვარი.',
+      desc: 'Cubes of pork threaded onto a skewer and grilled over charcoal.',
+      descKa: 'შამფურზე ასხმული ღორის ხორცის ნაჭრები, ნაკვერჩხალზე შემწვარი.',
       tags: ['From the charcoal']
     },
     'mtsvadi-chicken': {
       en: 'Chicken Mtsvadi', ka: 'მწვადი', img: 'mtsvadi.jpg',
       alt: 'Mtsvadi — meat grilling on flat skewers over charcoal',
       note: 'From the charcoal',
-      desc: 'Chicken on the flat skewer, turned over live coals.',
-      descKa: 'ქათამი ბრტყელ შამფურზე, ცოცხალ ნაკვერჩხალზე შემწვარი.',
+      desc: 'Cubes of chicken threaded onto a skewer and grilled over charcoal.',
+      descKa: 'შამფურზე ასხმული ქათმის ხორცის ნაჭრები, ნაკვერჩხალზე შემწვარი.',
       tags: ['From the charcoal']
     },
     'lula': {
       en: 'Lula Kebab',
       note: 'Hand-minced',
-      desc: 'Beef and pork minced with onion, worked onto the skewer until it clings, and grilled over the coals.',
-      descKa: 'საქონლისა და ღორის ხორცი ხახვთან ერთად დაკეპილი, შამფურზე მიკრული და ნაკვერჩხალზე შემწვარი.',
+      desc: 'Ground beef and pork mixed with onion, pressed onto a skewer and grilled over charcoal.',
+      descKa: 'ხახვთან შერეული დაკეპილი საქონლისა და ღორის ხორცი, შამფურზე დაჭერით ფორმირებული და ნაკვერჩხალზე შემწვარი.',
       tags: ['From the charcoal']
     },
     'kupati': {
       en: 'Kupati',
       note: 'Georgian sausage',
-      desc: 'Spiced pork-and-beef sausage, grilled dark over the coals.',
-      descKa: 'სანელებლიანი ღორისა და საქონლის ძეხვი, ნაკვერჩხალზე მუქად შემწვარი.',
+      desc: 'A Georgian sausage of spiced ground pork and beef, grilled before serving.',
+      descKa: 'ქართული ძეხვი სანელებლიანი დაკეპილი ღორისა და საქონლის ხორცისგან, მიტანის წინ შემწვარი.',
       tags: ['From the charcoal']
     },
     'shkmeruli': {
       en: 'Shkmeruli', ka: 'შქმერული', img: 'shkmeruli.jpg',
       alt: 'Shkmeruli — golden chicken pieces in white garlic-milk sauce in a clay bowl',
       note: 'Garlic milk chicken',
-      desc: 'Fried chicken finished in a sauce of garlic and milk, named for the mountain village of Shkmeri.',
-      descKa: 'შემწვარი ქათამი ნივრისა და რძის სოუსში ჩაშუშული, მთის სოფელ შქმერის სახელობის.',
+      desc: 'A Georgian dish of fried chicken cooked in a garlic and milk sauce, named after the village of Shkmeri in Racha.',
+      descKa: 'ქართული კერძი — შემწვარი ქათამი ნივრისა და რძის სოუსში; სახელი მომდინარეობს რაჭის სოფელ შქმერიდან.',
       tags: ['For garlic people']
     },
     'tabaka': {
       en: 'Chicken Tabaka', img: 'tabaka.jpg',
       alt: 'Chicken tabaka — whole flattened chicken, pan-fried golden and crisp',
       note: 'Flattened & crisped',
-      desc: 'A whole chicken flattened under a weight and pan-fried until the skin crackles, heavy on garlic.',
-      descKa: 'მთელი ქათამი, საწონის ქვეშ გაბრტყელებული და ტაფაზე შემწვარი, სანამ კანი არ ახრაშუნდება — ბლომად ნივრით.',
+      desc: 'A whole chicken pressed flat under a weight and pan-fried, served with garlic.',
+      descKa: 'მთელი ქათამი, საწონის ქვეშ გაბრტყელებული და ტაფაზე შემწვარი; ნივრით მიირთმევა.',
       tags: []
     },
     'kuchmachi': {
       en: 'Kuchmachi',
       note: 'The old-country classic',
-      desc: 'A rich sauté of offal with walnuts, herbs and pomegranate.',
-      descKa: 'შიგნეულის ნოყიერი მოშუშება ნიგვზით, მწვანილითა და ბროწეულით.',
+      desc: 'A Georgian dish of liver, heart and gizzards cooked with walnuts, herbs and pomegranate seeds.',
+      descKa: 'ქართული კერძი ღვიძლის, გულისა და კუჭისგან, ნიგვზით, მწვანილითა და ბროწეულის მარცვლებით მომზადებული.',
       tags: []
     },
 
@@ -352,32 +352,32 @@
       en: 'Assorted Pkhali', ka: 'ფხალი', img: 'pkhali.jpg',
       alt: 'Pkhali — green walnut and herb vegetable pâtés topped with pomegranate seeds',
       note: 'Cold, to share',
-      desc: 'Vegetables and greens pounded into walnut paste, rolled and crowned with pomegranate seeds.',
-      descKa: 'ბოსტნეული და მწვანილი ნიგვზის პასტაში დანაყილი, დაგუნდავებული და ბროწეულის მარცვლებით შემკული.',
+      desc: 'A Georgian appetizer of chopped vegetables and greens combined with ground walnuts, garlic, onion and herbs, topped with pomegranate seeds.',
+      descKa: 'ქართული ცივი კერძი დაჭრილი ბოსტნეულისა და მწვანილისგან, დანაყილი ნიგვზით, ნივრით, ხახვითა და სუნელებით; ზემოდან ბროწეულის მარცვლები.',
       tags: ['Vegetarian']
     },
     'lobio': {
       en: 'Beans with Walnuts “Lobio”', ka: 'ლობიო', img: 'lobio.jpg',
       alt: 'Lobio — red bean stew in a clay pot with herbs and onion',
       note: 'In the clay pot',
-      desc: 'Red beans stewed soft with walnuts, coriander and onion, served in the pot they were cooked in.',
-      descKa: 'ნიგვზით, ქინძითა და ხახვით რბილად მოშუშული წითელი ლობიო, იმავე ქოთანში მოტანილი, რომელშიც მოიხარშა.',
+      desc: 'A Georgian dish of kidney beans cooked with walnuts, coriander and onion, traditionally served in a clay pot.',
+      descKa: 'ქართული კერძი — ნიგვზით, ქინძითა და ხახვით მოხარშული ლობიო; ტრადიციულად თიხის ქოთანში მიირთმევა.',
       tags: ['Vegetarian']
     },
     'badrijani': {
       en: 'Eggplant with Walnut', ka: 'ბადრიჯანი ნიგვზით', img: 'badrijani.jpg',
       alt: 'Badrijani — fried eggplant rolls filled with walnut paste, topped with pomegranate',
       note: 'Five pieces',
-      desc: 'Thin fried eggplant rolled around garlicky walnut paste and topped with pomegranate seeds.',
-      descKa: 'თხლად შემწვარი ბადრიჯანი, ნივრიან ნიგვზის პასტაზე შემოხვეული და ბროწეულის მარცვლებით მოთავებული.',
+      desc: 'Fried eggplant rolled around a filling of spiced walnut paste, topped with pomegranate seeds.',
+      descKa: 'შემწვარი ბადრიჯანი სანელებლიანი ნიგვზის პასტის გულით, ზემოდან ბროწეულის მარცვლებით.',
       tags: ['Vegetarian']
     },
     'salad-walnut': {
       en: 'Tomato & Cucumber Salad with Walnuts', img: 'salad.jpg',
       alt: 'Chopped tomato and cucumber salad with herbs',
       note: 'The Georgian table salad',
-      desc: 'Tomato and cucumber under a thick walnut dressing.',
-      descKa: 'პომიდორი და კიტრი სქელი ნიგვზის საკაზმის ქვეშ.',
+      desc: 'Tomato and cucumber salad dressed with ground walnut sauce.',
+      descKa: 'პომიდვრისა და კიტრის სალათი დანაყილი ნიგვზის საკაზმით.',
       tags: ['Vegetarian']
     },
     'salad-plain': {
@@ -391,15 +391,15 @@
     'olivier': {
       en: 'Olivier Salad',
       note: 'The family classic',
-      desc: 'The classic potato salad, made the house way.',
-      descKa: 'კლასიკური კარტოფილის სალათი, სახლის რეცეპტით.',
+      desc: 'A salad of boiled potatoes and vegetables with egg and mayonnaise.',
+      descKa: 'მოხარშული კარტოფილისა და ბოსტნეულის სალათი კვერცხითა და მაიონეზით.',
       tags: []
     },
     'bazhe': {
       en: 'Walnut Sauce “Bazhe”', ka: 'ბაჟე',
       note: 'For dipping',
-      desc: 'Thick, garlicky walnut sauce — for bread or chicken.',
-      descKa: 'სქელი, ნივრიანი ნიგვზის საწებელი — პურისთვის ან ქათმისთვის.',
+      desc: 'A Georgian sauce made from ground walnuts, garlic and spices, served cold with poultry or bread.',
+      descKa: 'ქართული საწებელი დანაყილი ნიგვზის, ნივრისა და სუნელებისგან; ცივად მიირთმევა ფრინველთან ან პურთან.',
       tags: ['Vegetarian']
     },
     'potatoes': {
@@ -412,8 +412,8 @@
     'cheese-imeruli': {
       en: 'Imeruli Cheese', ka: 'იმერული ყველი',
       note: 'Fresh from the west',
-      desc: 'The fresh, milky, lightly salted cheese of Imereti — soft and springy.',
-      descKa: 'იმერეთის ახალი, რძიანი, ოდნავ მარილიანი ყველი — რბილი და დრეკადი.',
+      desc: 'A fresh, lightly salted brined cheese from the Imereti region, used in khachapuri.',
+      descKa: 'ახალი, ოდნავ მარილიანი ყველი იმერეთის რეგიონიდან; გამოიყენება ხაჭაპურში.',
       tags: ['Vegetarian']
     },
     'cheese-board': {
@@ -429,31 +429,31 @@
       en: 'Chakapuli', ka: 'ჩაქაფული', img: 'chakapuli.jpg',
       alt: 'Chakapuli — green Georgian lamb stew with tarragon and whole unripe plums',
       note: 'The green stew',
-      desc: 'Lamb stewed green with tarragon and whole unripe tkemali plums — bright, sour, herbal.',
-      descKa: 'ტარხუნითა და მთლიანი მკვახე ტყემლით მწვანედ მოშუშული ბატკანი — მჟავე, ბალახოვანი, კაშკაშა.',
+      desc: 'A Georgian stew of lamb cooked with tarragon, unripe tkemali plums, white wine and herbs.',
+      descKa: 'ქართული ჩაშუშული — ბატკნის ხორცი ტარხუნით, მკვახე ტყემლით, თეთრი ღვინითა და მწვანილით.',
       tags: ['House favourite']
     },
     'kharcho': {
       en: 'Kharcho', ka: 'ხარჩო', img: 'kharcho.jpg',
       alt: 'Kharcho — thick reddish-brown Georgian beef soup with cilantro',
       note: 'Beef, walnut, rice',
-      desc: 'Beef soup thickened with rice and ground walnut, soured with plum.',
-      descKa: 'ბრინჯითა და დანაყილი ნიგვზით შესქელებული საქონლის წვნიანი, ტყემლით დამჟავებული.',
+      desc: 'A Georgian soup of beef, rice and ground walnuts, soured with plum purée and seasoned with herbs and spices.',
+      descKa: 'ქართული წვნიანი საქონლის ხორცით, ბრინჯითა და დანაყილი ნიგვზით; ტყემლით მჟავდება და მწვანილითა და სუნელებით იკმაზება.',
       tags: []
     },
     'chashushuli': {
       en: 'Chashushuli',
       note: 'Stewed down',
-      desc: 'Beef stewed down with tomato, onion and chilli until the sauce clings to the meat.',
-      descKa: 'პომიდვრით, ხახვითა და წიწაკით ჩაშუშული საქონლის ხორცი, სანამ სოუსი ხორცს არ მიეკვრება.',
+      desc: 'A spicy Georgian stew of beef braised with tomatoes, onion and peppers.',
+      descKa: 'ცხარე ქართული კერძი — პომიდვრით, ხახვითა და წიწაკით ჩაშუშული საქონლის ხორცი.',
       tags: []
     },
     'borscht': {
       en: 'Borscht', img: 'borscht.jpg',
       alt: 'Borscht — deep red beet soup with a swirl of sour cream',
       note: 'With sour cream',
-      desc: 'Beetroot and beef, deep red, finished with sour cream.',
-      descKa: 'ჭარხალი და საქონლის ხორცი, მუქი წითელი, არაჟნით დაგვირგვინებული.',
+      desc: 'A sour beet soup of Eastern European origin, made with beef and served with sour cream.',
+      descKa: 'აღმოსავლეთევროპული წარმოშობის მჟავე ჭარხლის წვნიანი საქონლის ხორცით; არაჟნით მიირთმევა.',
       tags: []
     },
 
@@ -491,29 +491,29 @@
     'lemonade-tarragon': {
       en: 'Georgian Lemonade — Tarragon',
       note: 'Bright green',
-      desc: 'Georgian tarragon lemonade — bright green and sweet.',
-      descKa: 'ქართული ტარხუნის ლიმონათი — კაშკაშა მწვანე და ტკბილი.',
+      desc: 'A carbonated Georgian soft drink flavored with tarragon extract, green in color.',
+      descKa: 'გაზიანი ქართული გამაგრილებელი სასმელი ტარხუნის ექსტრაქტით, მწვანე ფერის.',
       tags: []
     },
     'lemonade-pear': {
       en: 'Georgian Lemonade — Pear',
       note: 'Natakhtari',
-      desc: 'Georgian pear lemonade by Natakhtari — soft and honeyed.',
-      descKa: 'ქართული მსხლის ლიმონათი „ნატახტარისგან" — რბილი და თაფლიანი.',
+      desc: 'A pear-flavored Georgian lemonade produced by Natakhtari.',
+      descKa: 'მსხლის გემოს ქართული ლიმონათი, „ნატახტარის" წარმოებული.',
       tags: []
     },
     'borjomi': {
       en: 'Borjomi',
       note: 'From the gorge',
-      desc: 'Georgia’s famous volcanic mineral water, bottled in the Borjomi gorge since the 1890s.',
-      descKa: 'საქართველოს სახელგანთქმული ვულკანური მინერალური წყალი, ბორჯომის ხეობაში 1890-იანი წლებიდან ჩამოსხმული.',
+      desc: 'A naturally carbonated mineral water from the Borjomi Gorge in central Georgia, bottled since 1890.',
+      descKa: 'ბუნებრივად გაზიანი მინერალური წყალი ცენტრალური საქართველოს ბორჯომის ხეობიდან; ჩამოისხმება 1890 წლიდან.',
       tags: []
     },
     'nabeglavi': {
       en: 'Nabeglavi',
       note: 'Mineral water',
-      desc: 'Georgian mineral water from the village of Nabeglavi.',
-      descKa: 'ქართული მინერალური წყალი სოფელ ნაბეღლავიდან.',
+      desc: 'A Georgian mineral water bottled in the village of Nabeghlavi in the Guria region.',
+      descKa: 'ქართული მინერალური წყალი, გურიის სოფელ ნაბეღლავში ჩამოსხმული.',
       tags: []
     },
     'water': {

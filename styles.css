@@ -140,8 +140,8 @@ section[id]{scroll-margin-top:76px}
   transition:background .45s var(--ez),box-shadow .45s var(--ez),padding .45s var(--ez);
 }
 .hdr.stuck{
-  background:rgba(26,15,8,.95);
-  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  /* no backdrop blur: at 97% opacity it's invisible but repaints every scroll frame */
+  background:rgba(26,15,8,.97);
   box-shadow:0 1px 0 rgba(212,160,69,.22),0 14px 34px -22px rgba(0,0,0,.85);
   padding-block:.45rem;
 }
@@ -203,7 +203,7 @@ body.nav-open .drawer-nav a:nth-child(5){transition-delay:.34s}
   background:var(--char);
 }
 .hero-media{position:absolute;inset:0;z-index:-2}
-.hero-media img{width:100%;height:100%;object-fit:cover;animation:kb 26s ease-in-out infinite alternate}
+.hero-media img{width:100%;height:100%;object-fit:cover;animation:kb 26s ease-in-out infinite alternate;will-change:transform}
 @keyframes kb{from{transform:scale(1.02)}to{transform:scale(1.14)}}
 
 .hero-veil{
@@ -232,7 +232,9 @@ body.nav-open .drawer-nav a:nth-child(5){transition-delay:.34s}
   background:linear-gradient(96deg,var(--amber-lt) 0%,var(--amber-glow) 34%,#FFFAEE 50%,var(--amber-glow) 66%,var(--amber-lt) 100%);
   background-size:230% 100%;
   -webkit-background-clip:text;background-clip:text;color:transparent;
-  animation:sheen 9s ease-in-out infinite;
+  /* sheen runs twice then stops — infinite background-position animation
+     through the drop-shadows repaints every frame and drags the whole page */
+  animation:sheen 7s ease-in-out .6s 2;
   filter:drop-shadow(0 3px 14px rgba(26,15,8,.8)) drop-shadow(0 1px 3px rgba(26,15,8,.6));
 }
 @keyframes sheen{0%,100%{background-position:180% 0}50%{background-position:-30% 0}}
@@ -493,8 +495,7 @@ body.nav-open .drawer-nav a:nth-child(5){transition-delay:.34s}
 .mbar{
   position:fixed;left:0;right:0;bottom:0;z-index:98;
   display:grid;grid-template-columns:1fr 1.35fr 1fr;
-  background:rgba(26,15,8,.97);
-  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:rgba(26,15,8,.98);
   border-top:1px solid rgba(212,160,69,.32);
   padding-bottom:env(safe-area-inset-bottom);
   transform:translateY(105%);transition:transform .45s var(--ez);
@@ -682,6 +683,7 @@ body.dm-open{overflow:hidden}
 .dmodal.open .dm-body > *:nth-child(4){transition-delay:.23s}
 .dmodal.open .dm-body > *:nth-child(5){transition-delay:.28s}
 .dmodal.open .dm-body > *:nth-child(6){transition-delay:.33s}
+.dmodal.open .dm-body > *:nth-child(7){transition-delay:.38s}
 .dmodal.open .dm-body > *{opacity:1;transform:none}
 
 .dm-ka{
@@ -696,6 +698,8 @@ body.dm-open{overflow:hidden}
 }
 .dm-note:empty{display:none}
 .dm-desc{color:var(--ink-soft);margin:0 0 1.1rem;line-height:1.7}
+.dm-desc-ka{font-family:var(--f-ka);color:var(--cream);margin-bottom:.85rem;line-height:1.8}
+.dm-desc-ka:empty{display:none}
 .dm-tags{list-style:none;padding:0;margin:0 0 1.45rem;display:flex;flex-wrap:wrap;gap:.4rem}
 .dm-tags:empty{display:none}
 .dm-tags li{

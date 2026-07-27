@@ -196,6 +196,14 @@
      ═══════════════════════════════════════════════════════ */
   var DISHES = {
     /* khachapuri & breads */
+    'safirmo': {
+      en: 'Khachapuri Safirmo', ka: 'საფირმო ხაჭაპური', img: 'safirmo.jpg',
+      alt: 'Khachapuri safirmo — round house khachapuri with a browned cheese crust, cut into wedges',
+      note: 'The house signature',
+      desc: 'Our signature khachapuri — loaded with extra cheese, baked until the top browns, and cut into wedges to share.',
+      descKa: 'ჩვენი საფირმო ხაჭაპური — უხვი ყველით, ზემოდან შემოზარდულ ქერქამდე გამომცხვარი, ნაჭრებად დაჭრილი.',
+      tags: ['Vegetarian', 'Baked to order']
+    },
     'imeruli': {
       en: 'Imeruli Khachapuri', ka: 'იმერული ხაჭაპური', img: 'imeruli-khachapuri.jpg',
       alt: 'Imeruli khachapuri — round enclosed Georgian cheese bread, cut open',

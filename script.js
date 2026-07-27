@@ -340,7 +340,7 @@
       tags: []
     },
     'kuchmachi': {
-      en: 'Kuchmachi',
+      en: 'Kuchmachi', img: 'kuchmachi.jpg',
       note: 'The old-country classic',
       desc: 'A Georgian dish of liver, heart and gizzards cooked with walnuts, herbs and pomegranate seeds.',
       descKa: 'ქართული კერძი ღვიძლის, გულისა და კუჭისგან, ნიგვზით, მწვანილითა და ბროწეულის მარცვლებით მომზადებული.',

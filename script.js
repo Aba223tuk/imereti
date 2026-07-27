@@ -325,7 +325,8 @@
       tags: ['From the charcoal']
     },
     'kupati': {
-      en: 'Kupati',
+      en: 'Kupati', img: 'kupati.jpg',
+      alt: 'Kupati — grilled Georgian sausages topped with red onion, coriander and pomegranate seeds',
       note: 'Georgian sausage',
       desc: 'A Georgian sausage of spiced ground pork and beef, grilled before serving.',
       descKa: 'ქართული ძეხვი სანელებლიანი დაკეპილი ღორისა და საქონლის ხორცისგან, მიტანის წინ შემწვარი.',

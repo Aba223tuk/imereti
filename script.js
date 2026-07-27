@@ -196,6 +196,14 @@
      ═══════════════════════════════════════════════════════ */
   var DISHES = {
     /* khachapuri & breads */
+    'safirmo': {
+      en: 'Khachapuri Safirmo', ka: 'საფირმო ხაჭაპური', img: 'safirmo.jpg',
+      alt: 'Khachapuri safirmo — round house khachapuri with a browned cheese crust, cut into wedges',
+      note: 'The house signature',
+      desc: 'Our signature khachapuri — loaded with extra cheese, baked until the top browns, and cut into wedges to share.',
+      descKa: 'ჩვენი საფირმო ხაჭაპური — უხვი ყველით, ზემოდან შემოზარდულ ქერქამდე გამომცხვარი, ნაჭრებად დაჭრილი.',
+      tags: ['Vegetarian', 'Baked to order']
+    },
     'imeruli': {
       en: 'Imeruli Khachapuri', ka: 'იმერული ხაჭაპური', img: 'imeruli-khachapuri.jpg',
       alt: 'Imeruli khachapuri — round enclosed Georgian cheese bread, cut open',
@@ -340,7 +348,7 @@
       tags: []
     },
     'kuchmachi': {
-      en: 'Kuchmachi',
+      en: 'Kuchmachi', img: 'kuchmachi.jpg',
       note: 'The old-country classic',
       desc: 'A Georgian dish of liver, heart and gizzards cooked with walnuts, herbs and pomegranate seeds.',
       descKa: 'ქართული კერძი ღვიძლის, გულისა და კუჭისგან, ნიგვზით, მწვანილითა და ბროწეულის მარცვლებით მომზადებული.',
@@ -370,6 +378,14 @@
       note: 'Five pieces',
       desc: 'Fried eggplant rolled around a filling of spiced walnut paste, topped with pomegranate seeds.',
       descKa: 'შემწვარი ბადრიჯანი სანელებლიანი ნიგვზის პასტის გულით, ზემოდან ბროწეულის მარცვლებით.',
+      tags: ['Vegetarian']
+    },
+    'gebzhalia': {
+      en: 'Gebzhalia', ka: 'გებჟალია', img: 'gebzhalia.jpg',
+      alt: 'Gebzhalia — rolled cheese slices with mint in a milky matsoni sauce, garnished with fresh mint',
+      note: 'Cold, from Samegrelo',
+      desc: 'A Megrelian dish of fresh cheese kneaded with mint, rolled, sliced and served cool in a milky matsoni sauce.',
+      descKa: 'მეგრული კერძი — პიტნით მოზელილი ახალი ყველი, დახვეული და დაჭრილი, ცივად მიირთმევა მაწვნის სოუსში.',
       tags: ['Vegetarian']
     },
     'salad-walnut': {
@@ -489,31 +505,43 @@
 
     /* drinks */
     'lemonade-tarragon': {
-      en: 'Georgian Lemonade — Tarragon',
+      en: 'Georgian Lemonade — Tarragon', img: 'natakhtari.jpg',
+      alt: 'Bottles of Natakhtari Georgian soda — tarragon, cream, berberis and pear',
       note: 'Bright green',
       desc: 'A carbonated Georgian soft drink flavored with tarragon extract, green in color.',
       descKa: 'გაზიანი ქართული გამაგრილებელი სასმელი ტარხუნის ექსტრაქტით, მწვანე ფერის.',
       tags: []
     },
     'lemonade-pear': {
-      en: 'Georgian Lemonade — Pear',
+      en: 'Georgian Lemonade — Pear', img: 'natakhtari.jpg',
+      alt: 'Bottles of Natakhtari Georgian soda — tarragon, cream, berberis and pear',
       note: 'Natakhtari',
       desc: 'A pear-flavored Georgian lemonade produced by Natakhtari.',
       descKa: 'მსხლის გემოს ქართული ლიმონათი, „ნატახტარის" წარმოებული.',
       tags: []
     },
     'borjomi': {
-      en: 'Borjomi',
+      en: 'Borjomi', img: 'mineral-water.jpg',
+      alt: 'Bottles of Georgian mineral water — Borjomi, Nabeglavi and Likani',
       note: 'From the gorge',
       desc: 'A naturally carbonated mineral water from the Borjomi Gorge in central Georgia, bottled since 1890.',
       descKa: 'ბუნებრივად გაზიანი მინერალური წყალი ცენტრალური საქართველოს ბორჯომის ხეობიდან; ჩამოისხმება 1890 წლიდან.',
       tags: []
     },
     'nabeglavi': {
-      en: 'Nabeglavi',
+      en: 'Nabeglavi', img: 'mineral-water.jpg',
+      alt: 'Bottles of Georgian mineral water — Borjomi, Nabeglavi and Likani',
       note: 'Mineral water',
       desc: 'A Georgian mineral water bottled in the village of Nabeghlavi in the Guria region.',
       descKa: 'ქართული მინერალური წყალი, გურიის სოფელ ნაბეღლავში ჩამოსხმული.',
+      tags: []
+    },
+    'compote': {
+      en: 'Georgian Kompoti', ka: 'კომპოტი', img: 'compote.jpg',
+      alt: 'Bottles of Georgian fruit compote — quince, cherry, white cherry, feijoa, plum, peach and pear',
+      note: 'By the bottle',
+      desc: 'Georgian fruit compote — whole fruit steeped in lightly sweetened water. Flavors rotate: quince, cherry, white cherry, feijoa, plum, peach and pear all pass through.',
+      descKa: 'ქართული ხილის კომპოტი — მთლიანი ხილი მსუბუქად დატკბილულ წყალში. გემოები იცვლება: კომში, ალუბალი, თეთრი ბალი, ფეიხოა, ქლიავი, ატამი და მსხალი.',
       tags: []
     },
     'water': {
@@ -524,7 +552,8 @@
       tags: []
     },
     'sodas': {
-      en: 'Sodas',
+      en: 'Sodas', img: 'sodas.jpg',
+      alt: 'A pyramid of soda cans — Pepsi, Sprite, Fanta, Coca-Cola, Coke Zero and Diet Coke',
       note: 'The usual',
       desc: 'Coca-Cola, Diet Coke, Coke Zero, Pepsi, Sprite and Fanta.',
       descKa: 'კოკა-კოლა, დიეტ კოკა, კოკა ზერო, პეპსი, სპრაიტი და ფანტა.',

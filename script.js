@@ -537,7 +537,7 @@
       tags: []
     },
     'compote': {
-      en: 'Georgian Compote', ka: 'კომპოტი', img: 'compote.jpg',
+      en: 'Georgian Kompoti', ka: 'კომპოტი', img: 'compote.jpg',
       alt: 'Bottles of Georgian fruit compote — quince, cherry, white cherry, feijoa, plum, peach and pear',
       note: 'By the bottle',
       desc: 'Georgian fruit compote — whole fruit steeped in lightly sweetened water. Flavors rotate: quince, cherry, white cherry, feijoa, plum, peach and pear all pass through.',

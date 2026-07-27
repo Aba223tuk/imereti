@@ -582,6 +582,16 @@ body.nav-open .drawer-nav a:nth-child(5){transition-delay:.34s}
 }
 .sb-line em{font-style:italic;color:var(--amber-lt)}
 
+/* ══ INSIDE ═══════════════════════════════════════════════ */
+.inside{padding-block:var(--sec);background:linear-gradient(180deg,var(--char),var(--oak-900));color:var(--cream)}
+.inside h2{color:var(--cream)}
+.inside .sec-lede{color:rgba(245,230,200,.85)}
+.inside-photo{max-width:62rem;margin:0 auto}
+.inside-img{overflow:hidden;border-radius:3px;box-shadow:var(--sh-2);background:var(--oak-800)}
+.inside-img img{width:100%;aspect-ratio:16/10;object-fit:cover;transform:scale(1.1);transition:transform 1.6s var(--ez)}
+.inside-photo.in .inside-img img{transform:scale(1)}
+.inside-photo .cap{text-align:center;max-width:40rem;margin-inline:auto}
+
 /* ══ CLICKABLE DISHES ═════════════════════════════════════ */
 .list li[data-dish]{position:relative}
 .list li:has(.dish-btn){padding:0}

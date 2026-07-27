@@ -505,31 +505,43 @@
 
     /* drinks */
     'lemonade-tarragon': {
-      en: 'Georgian Lemonade — Tarragon',
+      en: 'Georgian Lemonade — Tarragon', img: 'natakhtari.jpg',
+      alt: 'Bottles of Natakhtari Georgian soda — tarragon, cream, berberis and pear',
       note: 'Bright green',
       desc: 'A carbonated Georgian soft drink flavored with tarragon extract, green in color.',
       descKa: 'გაზიანი ქართული გამაგრილებელი სასმელი ტარხუნის ექსტრაქტით, მწვანე ფერის.',
       tags: []
     },
     'lemonade-pear': {
-      en: 'Georgian Lemonade — Pear',
+      en: 'Georgian Lemonade — Pear', img: 'natakhtari.jpg',
+      alt: 'Bottles of Natakhtari Georgian soda — tarragon, cream, berberis and pear',
       note: 'Natakhtari',
       desc: 'A pear-flavored Georgian lemonade produced by Natakhtari.',
       descKa: 'მსხლის გემოს ქართული ლიმონათი, „ნატახტარის" წარმოებული.',
       tags: []
     },
     'borjomi': {
-      en: 'Borjomi',
+      en: 'Borjomi', img: 'mineral-water.jpg',
+      alt: 'Bottles of Georgian mineral water — Borjomi, Nabeglavi and Likani',
       note: 'From the gorge',
       desc: 'A naturally carbonated mineral water from the Borjomi Gorge in central Georgia, bottled since 1890.',
       descKa: 'ბუნებრივად გაზიანი მინერალური წყალი ცენტრალური საქართველოს ბორჯომის ხეობიდან; ჩამოისხმება 1890 წლიდან.',
       tags: []
     },
     'nabeglavi': {
-      en: 'Nabeglavi',
+      en: 'Nabeglavi', img: 'mineral-water.jpg',
+      alt: 'Bottles of Georgian mineral water — Borjomi, Nabeglavi and Likani',
       note: 'Mineral water',
       desc: 'A Georgian mineral water bottled in the village of Nabeghlavi in the Guria region.',
       descKa: 'ქართული მინერალური წყალი, გურიის სოფელ ნაბეღლავში ჩამოსხმული.',
+      tags: []
+    },
+    'compote': {
+      en: 'Georgian Compote', ka: 'კომპოტი', img: 'compote.jpg',
+      alt: 'Bottles of Georgian fruit compote — quince, cherry, white cherry, feijoa, plum, peach and pear',
+      note: 'By the bottle',
+      desc: 'Georgian fruit compote — whole fruit steeped in lightly sweetened water. Flavors rotate: quince, cherry, white cherry, feijoa, plum, peach and pear all pass through.',
+      descKa: 'ქართული ხილის კომპოტი — მთლიანი ხილი მსუბუქად დატკბილულ წყალში. გემოები იცვლება: კომში, ალუბალი, თეთრი ბალი, ფეიხოა, ქლიავი, ატამი და მსხალი.',
       tags: []
     },
     'water': {
@@ -540,7 +552,8 @@
       tags: []
     },
     'sodas': {
-      en: 'Sodas',
+      en: 'Sodas', img: 'sodas.jpg',
+      alt: 'A pyramid of soda cans — Pepsi, Sprite, Fanta, Coca-Cola, Coke Zero and Diet Coke',
       note: 'The usual',
       desc: 'Coca-Cola, Diet Coke, Coke Zero, Pepsi, Sprite and Fanta.',
       descKa: 'კოკა-კოლა, დიეტ კოკა, კოკა ზერო, პეპსი, სპრაიტი და ფანტა.',

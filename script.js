@@ -372,6 +372,14 @@
       descKa: 'შემწვარი ბადრიჯანი სანელებლიანი ნიგვზის პასტის გულით, ზემოდან ბროწეულის მარცვლებით.',
       tags: ['Vegetarian']
     },
+    'gebzhalia': {
+      en: 'Gebzhalia', ka: 'გებჟალია', img: 'gebzhalia.jpg',
+      alt: 'Gebzhalia — rolled cheese slices with mint in a milky matsoni sauce, garnished with fresh mint',
+      note: 'Cold, from Samegrelo',
+      desc: 'A Megrelian dish of fresh cheese kneaded with mint, rolled, sliced and served cool in a milky matsoni sauce.',
+      descKa: 'მეგრული კერძი — პიტნით მოზელილი ახალი ყველი, დახვეული და დაჭრილი, ცივად მიირთმევა მაწვნის სოუსში.',
+      tags: ['Vegetarian']
+    },
     'salad-walnut': {
       en: 'Tomato & Cucumber Salad with Walnuts', img: 'salad.jpg',
       alt: 'Chopped tomato and cucumber salad with herbs',
